@@ -1,5 +1,5 @@
 class QuotesController < ApplicationController
-  before_action :find_quote, only: [:show, :destroy]
+  before_action :find_quote, only: [:show, :destroy, :edit, :update]
 
   def index
     @quotes = Quote.all
@@ -17,6 +17,13 @@ class QuotesController < ApplicationController
     @quote.save
 
     redirect_to quote_path(@quote)
+  end
+
+  def edit
+
+  end
+
+  def update
   end
 
   def destroy
