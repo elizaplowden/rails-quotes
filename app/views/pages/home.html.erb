@@ -1,3 +1,5 @@
-<%= link_to 'Random Quote', quote_path(Quote.ids.sample) %>
-<%= link_to 'All Quotes', quotes_path %>
-<%= link_to 'Add your own quote', new_quote_path %>
+<div class="home-container">
+  <h1>Zen quotes</h1>
+  <h2>Quotes to live by 🙏</h2>
+  <%= link_to 'Random Quote Generator', quote_path(Quote.ids.sample) %>
+</div>
