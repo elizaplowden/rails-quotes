@@ -10,7 +10,7 @@ puts "Cleaning up database"
 Quote.destroy_all
 puts "Database cleaned"
 
-url = "https://zenquotes.io/api/quotes"
+url = "https://zenquotes.io/api/random"
 
 quote_serialized = open(url).read
 quotes = JSON.parse(quote_serialized)
