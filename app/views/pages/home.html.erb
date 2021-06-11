@@ -1,5 +1,7 @@
 <div class="home-container">
   <h1>Zen quotes</h1>
   <h2>Quotes to live by 🙏</h2>
-  <%= link_to 'Random Quote', quote_path(Quote.ids.sample) %>
+  <div class="btn-green">
+    <%= link_to 'Random Quote', quote_path(Quote.ids.sample) %>
+  </div>
 </div>

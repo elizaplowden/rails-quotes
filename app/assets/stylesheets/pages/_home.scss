@@ -1,11 +1,21 @@
 // Specific CSS for your home-page
 .home-container{
-  margin-top: 30vh;
+  margin-top: -20vh;
   text-align: center;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .home-container h1{
-  font-size: 60px;
+  font-size: 70px;
+}
+
+.home-container h2{
+  font-size: 50px;
+
 }
 
 .btn-green{
@@ -14,8 +24,20 @@
   background-color: rgba(19, 196, 163, 0.9);
   color: rgba(184, 235, 208, 0.8);
   border-radius: 4%;
+  bottom: 30vh;
+  position: fixed;
 }
 
 .home-container h2{
   margin: 30px 0px 40px 0px;
+}
+
+.home-container .btn-green{
+  width: 300px;
+  text-align: center;
+
+}
+
+.home-container a{
+  color: rgba(184, 235, 208, 0.8);
 }

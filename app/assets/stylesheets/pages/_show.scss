@@ -20,8 +20,19 @@
   color:  rgba(184, 235, 208, 0.8);
 }
 
+.show-container .btn-green:hover{
+  padding: 22px 20px;
+  // opacity: 0.4;
+  color: rgba(19, 196, 163, 0.7);
+}
+
+.show-container .btn-green a:hover{
+  text-decoration: none;
+  color: rgba(240, 240, 240, 1);
+}
+
 .show-container h3{
-  margin: 50px 0px;
+  margin: 40px 0px;
   font-size: 38px;
 }
 
@@ -31,15 +42,14 @@
   color: rgba(19, 196, 163, 0.9);
 }
 
-
 .show-links{
-  margin: 50px 0px;
   font-size: 20px;
 }
 
 .show-links a:hover{
   letter-spacing: 0.7px;
 }
+
 
 @media only screen
   and (min-device-width: 320px)
