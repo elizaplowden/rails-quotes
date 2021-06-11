@@ -1,7 +1,6 @@
-<%= form_for(@quote) do |f| %>
-  <%= f.label :quote %>
-  <%= f.text_field :quote %>
-  <%= f.label :author %>
-  <%= f.text_field :author %>
-  <%= f.submit %>
-<% end %>
+<h1>Editing Quote</h1>
+
+<%= render 'form', quote: @quote %>
+
+<%= link_to 'Quote', @quote %>
+<%= link_to 'Quotes', quotes_path %>

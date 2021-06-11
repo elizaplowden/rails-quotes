@@ -1,7 +1,7 @@
 <h2><%= @quote.quote %></h2>
 <p><%= @quote.author %></p>
 <%= link_to 'Delete ✖️', @quote, data: {confirm: 'Are you sure?'}, method: :delete %>
-
+<%= link_to 'Edit', edit_quote_path(@quote.id), method: :get %>
 
 <%= link_to 'Random Quote', quote_path(Quote.ids.sample) %>
 <%= link_to 'All Quotes', quotes_path %>
