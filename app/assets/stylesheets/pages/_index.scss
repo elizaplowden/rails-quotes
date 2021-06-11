@@ -3,7 +3,14 @@
 @import "show";
 
 .index-container{
-  margin: 20px;
+  margin: 60px 30px;
+}
+
+.quotes h1{
+  margin: 30px 0px 30px 50px;
+  font-weight: bolder;
+  font-size: 46px;
+
 }
 
 .quotes-list{
@@ -11,5 +18,19 @@
 }
 
 .quotes-list li{
-  margin: 20px 0px;
+  margin: 30px 0px;
+  text-decoration: none;
+
+}
+
+.quotes-list a{
+  color: #13C4A3;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quotes-list a:hover{
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  opacity: 0.8;
 }

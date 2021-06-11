@@ -1,12 +1,16 @@
 <div class="index-container">
-  <ul class="quotes-list">
-    <% @quotes.each do |quote| %>
-      <li>
-        '<%= link_to quote.quote, quote_path(quote.id) %>'
-        <%= quote.author %>
-      </li>
-    <% end %>
-  </ul>
+  <div class="quotes">
+    <h1>Zen Quotes</h1>
+    <ul class="quotes-list">
+      <% @quotes.each do |quote| %>
+        <li>
+          '<%= link_to quote.quote, quote_path(quote.id) %>'
+
+        </li>
+      <% end %>
+    </ul>
+  </div>
+
 
 
 </div>
