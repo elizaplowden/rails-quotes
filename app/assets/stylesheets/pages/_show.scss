@@ -1,7 +1,14 @@
 .show-container{
   text-align: center;
-  margin: 40vh 25vw 0 25vw;
+  margin: 20vh 25vw 0 25vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-container a{
+  color: rgba(19, 196, 163, 0.9);
 }
 
 .show-container h2{
@@ -9,8 +16,12 @@
   font-size: 56px;
 }
 
+.show-container .btn-green a{
+  color:  rgba(184, 235, 208, 0.8);
+}
+
 .show-container h3{
-  margin: 30px 0px;
+  margin: 50px 0px;
   font-size: 38px;
 }
 
@@ -20,6 +31,7 @@
   color: rgba(19, 196, 163, 0.9);
 }
 
+
 .show-links{
   margin: 50px 0px;
   font-size: 20px;
@@ -27,4 +39,25 @@
 
 .show-links a:hover{
   letter-spacing: 0.7px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .show-container{
+      margin-top: 10vh;
+    }
+    .show-container h2{
+      font-size: 30px;
+    }
+    .show-links{
+      display: flex;
+      flex-direction: column;
+    }
+    .show-container .btn-green {
+      padding: 10px;
+      font-size: 20px;
+    }
 }
