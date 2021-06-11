@@ -24,6 +24,9 @@ class QuotesController < ApplicationController
   end
 
   def update
+    @quote.update(strong_params)
+
+    redirect_to quote_path(@quote)
   end
 
   def destroy
