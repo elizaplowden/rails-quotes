@@ -16,9 +16,15 @@
   font-size: 56px;
 }
 
+.show-container .btn-green{
+  bottom: 20vh;
+  position: fixed;
+}
+
 .show-container .btn-green a{
   color:  rgba(184, 235, 208, 0.8);
 }
+
 
 .show-container .btn-green:hover{
   padding: 22px 20px;

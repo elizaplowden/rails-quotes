@@ -1,14 +1,30 @@
 .navbar-lewagon {
   justify-content: space-between;
   background:  rgba(19, 196, 163, 0.7);
-  color: rgb(184, 235, 208);
-  padding: 14px 0px;
+  color: rgba(184, 235, 208, 1);
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  display: flex;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-lewagon li{
+  margin: 0px 40px;
+
 }
+
+.nav-item a{
+  color: rgba(184, 235, 208, 1) !important;
+  font-size: 24px;
+}
+
+.nav-item a:hover{
+  color: white;
+}
+
+.navbar p{
+  font-size: 50px;
+  margin-left: 20px;
+}
+
