@@ -1,16 +1,30 @@
 .show-container{
   text-align: center;
-  margin: 30vh 10vw 0 10vw;
+  margin: 40vh 25vw 0 25vw;
+  height: 100vh;
 }
 
 .show-container h2{
   font-style: italic;
+  font-size: 56px;
 }
 
 .show-container h3{
   margin: 30px 0px;
+  font-size: 38px;
 }
 
 .show-links a{
-  margin: 0px 20px;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: rgba(19, 196, 163, 0.9);
+}
+
+.show-links{
+  margin: 50px 0px;
+  font-size: 20px;
+}
+
+.show-links a:hover{
+  letter-spacing: 0.7px;
 }
