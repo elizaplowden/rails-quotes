@@ -1,6 +1,6 @@
 <ul>
   <% @quotes.each do |quote| %>
-    <li>quote.quote</li>
-    <li>quote.author</li>
+    <li><%= link_to quote.quote, quote_path(quote.id) %></li>
+    <li><%= quote.author %></li>
   <% end %>
 </ul>
