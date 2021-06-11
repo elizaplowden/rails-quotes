@@ -4,8 +4,7 @@
     <ul class="quotes-list">
       <% @quotes.each do |quote| %>
         <li>
-          '<%= link_to quote.quote, quote_path(quote.id) %>'
-
+          '<%= link_to quote.quote, quote_path(quote.id)%>'
         </li>
       <% end %>
     </ul>
