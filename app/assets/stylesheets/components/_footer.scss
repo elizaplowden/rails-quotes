@@ -36,6 +36,15 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footer{
-      padding: 10px 0px;
+      padding: 5px 0px;
+      display: flex;
+      justify-content: center;
+    }
+    .footer .github-link, .linkedin-link{
+          display: none;
+    }
+    .footer-links p{
+     text-align: center;
+     font-size: 16px;
     }
 }
