@@ -5,8 +5,12 @@
   justify-content: center;
 }
 
+.form-container h2{
+  font-size: 50px;
+}
+
 .form{
-  margin-top: -30vh;
+  margin-top: -40vh;
   text-align: center;
 }
 
@@ -20,7 +24,8 @@
 }
 
 .form .submit{
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-top: 50px;
   position: fixed;
 }
 
@@ -29,6 +34,10 @@ input{
   background-color: rgba(19, 196, 163, 1) !important;
   border: none !important;
 
+}
+
+.input-quote, .input-author {
+  font-size: 24px;
 }
 
 .form .submit:hover{
