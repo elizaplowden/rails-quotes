@@ -1,8 +1,8 @@
 // Specific CSS for your home-page
 .home-container{
-  margin-top: -20vh;
+  margin-top: -30vh;
   text-align: center;
-  height: 120vh;
+  height: 130vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,17 +10,16 @@
 }
 
 .home-container h1{
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .home-container h2{
-  font-size: 50px;
+  font-size: 40px;
 
 }
 
-.home .btn-green{
-
-  margin-top: 20px;
+.home-container .btn-green{
+  margin-top: 35px;
   position: fixed;
 }
 
@@ -36,4 +35,30 @@
 
 .home-container a{
   color: rgba(184, 235, 208, 0.8);
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .home-container{
+      margin: -25vh 6vw 0px 6vw;
+      height: 100vh;
+
+    }
+    .home-container h1{
+      margin-top: 0px;
+      font-size: 36px;
+    }
+    .home-container h2{
+      font-size: 28px;
+    }
+
+    .home-container .btn-green {
+      padding: 10px;
+      font-size: 20px;
+      bottom: 20vh;
+      position: fixed;
+    }
 }
