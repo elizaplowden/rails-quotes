@@ -5,7 +5,6 @@
   </div>
   <div class="show-links">
     <%= link_to 'Delete ✖️', @quote, data: {confirm: 'Are you sure?'}, method: :delete %>
-    <%= link_to 'Edit ✒️', edit_quote_path(@quote.id), method: :get %>
   </div>
   <div class="btn-green">
     <%= link_to 'Random Quote', quote_path(Quote.ids.sample) %>

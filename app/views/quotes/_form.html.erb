@@ -1,7 +1,18 @@
-<%= form_for(@quote) do |f| %>
-  <%= f.label :quote %>
-  <%= f.text_field :quote %>
-  <%= f.label :author %>
-  <%= f.text_field :author %>
-  <%= f.submit %>
-<% end %>
+<div class="form-container">
+  <div class="form">
+    <h2>Add your own zen quote!</h2>
+    <%= form_for(@quote) do |f| %>
+    <div class="input-quote">
+      <%= f.label :quote  %>
+      <%= f.text_field :quote  %>
+    </div>
+    <div class="input-author">
+      <%= f.label :author %>
+      <%= f.text_field :author %>
+    </div>
+    <div class="submit btn-green">
+      <%= f.submit %>
+    </div>
+  <% end %>
+  </div>
+</div>
