@@ -63,10 +63,13 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .show-container{
-      margin-top: 10vh;
+      margin: 10vh 8vw 0px 8vw;
     }
     .show-container h2{
-      font-size: 30px;
+      font-size: 20px;
+    }
+    .show-container h3{
+      font-size: 18px;
     }
     .show-links{
       display: flex;
@@ -75,5 +78,7 @@
     .show-container .btn-green {
       padding: 10px;
       font-size: 20px;
+      bottom: 15vh;
+      position: fixed;
     }
 }

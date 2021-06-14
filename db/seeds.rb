@@ -23,3 +23,4 @@ quotes.each do |quote|
 end
 
 puts "Quotes created"
+
