@@ -1,3 +1,8 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
   background:  rgba(19, 196, 163, 0.5);
@@ -36,7 +41,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
-
+    .nav-item a{
+      display: none;
+      // display: flex;
+    }
 
 
 }
