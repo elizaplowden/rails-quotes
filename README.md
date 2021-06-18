@@ -9,3 +9,14 @@ You can view the application [here](https://elizas-quotes.herokuapp.com/)
 ![Index](https://user-images.githubusercontent.com/71760740/122541928-14b7fe00-d022-11eb-9407-a7f9d907eca6.png)
 ![Show Card](https://user-images.githubusercontent.com/71760740/122542070-34e7bd00-d022-11eb-89ac-edf6c38135ae.png)
 ![Responsive](https://user-images.githubusercontent.com/71760740/122542118-3f09bb80-d022-11eb-8743-07c7aa4b7f8c.png)
+
+
+**Running locally**
+Clone the github repo locally, and navigate to that folder in your terminal. Run the below commands in your terminal to install all the ruby gems, install the js, create the db and populate it with test data, and lastly start a server locally.
+
+bundle install
+yarn install
+rails db:migrate
+rails db:seed
+rails s
+Then go to http://localhost:3000/ to view this application in your browser.
